@@ -4,7 +4,7 @@
 			if (!buttonClicked) { // memeriksa apakah tombol telah diklik sebelum memulai perhitungan mundur
 				return;
 			}
-			var count = 5; // waktu mundur dimulai dari 10 detik
+			var count = 10; // waktu mundur dimulai dari 10 detik
 			var countdownElem = document.getElementById("countdown"); // mendapatkan elemen countdown
 
 			// mengulang mundur setiap 1 detik sampai mencapai 0
